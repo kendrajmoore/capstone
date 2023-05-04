@@ -90,7 +90,9 @@ To create this project you need a
 
 ### Installation
 
+1. Connect the DHT11 and Capacitive Soil Sensor to your device. 
 
+[![Device][device-screenshot]](https://i.ibb.co/5W6v0Jz/Screenshot-2023-04-30-at-3-17-16-PM-1.png)
 
 
 1. Get a free API Key at [https://example.com](https://example.com)
@@ -133,6 +135,7 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://i.ibb.co/5W6v0Jz/Screenshot-2023-04-30-at-3-17-16-PM-1.png
+[device-screenshot]: https://i.ibb.co/z474hY4/Screenshot-2023-04-26-at-11-39-41-AM.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Node-Red]: https://img.shields.io/badge/Node--Red-8F0000?style=for-the-badge&logo=nodered&logoColor=white
