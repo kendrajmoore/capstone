@@ -15,7 +15,7 @@
   <p align="center">
     An IoT Plant Monitoring System that allows you to review your plants health stats from anywhere in the world using an ESP32, InfluxDB, MQTT, and Grafana.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kendrajmoore/capstone/edit/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://grafana.smartplant.live/d/livedata/plant-dashboard">View Demo</a>
@@ -52,7 +52,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://i.ibb.co/5W6v0Jz/Screenshot-2023-04-30-at-3-17-16-PM-1.png)
 
-Plant monitoring has become an increasingly prominent environmental measurement in climate change, water resource forecasting, land stability, and crop management. Current technologies in soil monitoring are used to help farmers understand their plant health and make decisions about how to care for their crops. These existing technologies, however, rely on proprietary sensors and lack the ability to onboard or customize new types of sensors. The platform will offer (1) seamless sensor integration, (2) storage of time series data, (3) monitoring and visualizations on live data. 
+Plant monitoring has become an increasingly prominent environmental measurement in climate change, water resource forecasting, land stability, and crop management. Current technologies in soil monitoring are used to help farmers understand their plant health and make decisions about how to care for their crops. These existing technologies, however, rely on proprietary sensors and lack the ability to onboard or customize new types of sensors. The platform will offer
+
+1. Seamless sensor integration
+2. Storage of time series data
+3. monitoring and visualizations on live data. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,11 +66,11 @@ Plant monitoring has become an increasingly prominent environmental measurement 
 
 * [![React][React.js]][React-url]
 * [![Node-Red][Node-Red]][Node-url]
-* [![Arduino][Arduino]][Arduino-url]
 * [![InfluxDB][InfluxDB]][Influx-url]
-* [![Digital Ocean][Digital Ocean]][Digital-url]
-* [![Grafana][Grafana]][Grafana-url]
+* [![Grafana][Grafana]][Grafana-url] 
 * [![Mosquitto][mosquitto-shield]][mosquitto-url]
+* [![Arduino][Arduino]][Arduino-url]
+* [![Digital Ocean][Digital Ocean]][Digital-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,13 +79,19 @@ Plant monitoring has become an increasingly prominent environmental measurement 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To create this project you need a 
+1. Wifi enabled Arduino device (ESP32, ESP8622) 
+2. Linux device (Raspberry Pi, AWS, Digitial Ocean)
+3. DHT11 Temperature and Humidity Sensor
+4. Capacitive Soil Sensor
+5. Jumper Wires
+6. Breadboard
 
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
