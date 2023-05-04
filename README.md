@@ -15,7 +15,7 @@
   <p align="center">
     An IoT Plant Monitoring System that allows you to review your plants health stats from anywhere in the world using an ESP32, InfluxDB, MQTT, and Grafana.
     <br />
-    <a href="https://github.com/kendrajmoore/capstone/edit/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://kendrajmoore.github.io/capstone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://grafana.smartplant.live/d/livedata/plant-dashboard">View Demo</a>
