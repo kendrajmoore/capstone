@@ -40,6 +40,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#system-architecture">System Architecture</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -94,24 +95,24 @@ To create this project you need a
 
 [![Device][device-screenshot]](https://i.ibb.co/5W6v0Jz/Screenshot-2023-04-30-at-3-17-16-PM-1.png)
 
-
-1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/kendrajmoore/capstone.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Connect your device to Arduino IDE and upload the device code. Make sure to input your wifi password
+4. Open the serial monitor and set the rate to 115200
+5. If your device is properly configured, you should see the temperature, humidity, and soil moisture
+6. On your linux device install MQTT, InfluxDB, NodeRed, and Grafana. Enable all to start on boot
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## System Architecture
 
+
+[![System][system-screenshot]](https://i.ibb.co/7GGLvWS/Screenshot-2023-05-03-at-7-47-56-AM.png)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -125,8 +126,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Random Nerd Tutorials](https://randomnerdtutorials.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,6 +135,7 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://i.ibb.co/5W6v0Jz/Screenshot-2023-04-30-at-3-17-16-PM-1.png
 [device-screenshot]: https://i.ibb.co/z474hY4/Screenshot-2023-04-26-at-11-39-41-AM.png
+[system-screenshot]: https://i.ibb.co/CW1d5pr/Screenshot-2023-05-03-at-7-39-09-PM.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Node-Red]: https://img.shields.io/badge/Node--Red-8F0000?style=for-the-badge&logo=nodered&logoColor=white
