@@ -88,6 +88,8 @@ To create this project you need a
 5. Jumper Wires
 6. Breadboard
 
+[![Sensor][sensor-device]](https://ibb.co/hDSS8dj)
+
 
 ### Installation
 
