@@ -59,6 +59,9 @@ Plant monitoring has become an increasingly prominent environmental measurement 
 2. Storage of time series data
 3. monitoring and visualizations on live data. 
 
+![Sensor](https://i.ibb.co/z6v578J/Frame-10.png)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -88,7 +91,6 @@ To create this project you need a
 5. Jumper Wires
 6. Breadboard
 
-![Sensor](https://ibb.co/41rfYsd)
 
 ### Installation
 
