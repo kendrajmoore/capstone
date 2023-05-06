@@ -18,9 +18,12 @@
     <a href="https://kendrajmoore.github.io/capstone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://poetic-semolina-65f468.netlify.app/">View Alpha</a>
     
-    <a href="https://grafana.smartplant.live/d/livedata/plant-dashboard">View Dashboard Demo</a>
+    <a href="https://poetic-semolina-65f468.netlify.app/"><strong>View Alpha »<strong></a>
+    
+    <br/>
+    
+    <a href="https://grafana.smartplant.live/d/livedata/plant-dashboard"><strong>View Dashboard Demo »<strong></a>
   </p>
 </div>
 
